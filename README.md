@@ -1,4 +1,6 @@
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/b09b5fc1-c62a-499e-bc57-d9c166b17849" /># FILE-HANDLING-UTILITY
+# FILE HANDLING
+
+UTILITY
 
 *COMPANY*: CODETECH IT SOLUTIONS
 
@@ -14,6 +16,8 @@
 
 
 
+
+## DESCRIPTON
 
 1.Overview
 
@@ -383,5 +387,13 @@ Your Name
 📧 asmathunnisam@gmail.com
 
 🌐 SHAIK RAYEES (fajlrs)
+
+
+
+## OUTPUT
+
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/b4d018a2-84ac-4d1e-b124-cfe59e77a46b" />
+
+
 
 
