@@ -73,3 +73,315 @@ Use menu-driven programming in console applications
 ✅ Menu-based interface – Easy for beginners to navigate.
 
 ✅ Cross-platform – Works on Windows, macOS, and Linux.
+
+
+
+Requirements
+
+Java JDK: Version 8 or higher
+
+Text Editor / IDE: IntelliJ IDEA, Eclipse, NetBeans, or even Notepad++
+
+Command Line Interface: Terminal / Command Prompt
+
+
+
+⚙️ How to Run
+
+
+git clone https://github.com/<your-username>/FileHandlingUtility.git
+
+cd FileHandlingUtility
+
+
+
+2️⃣ Compile the Program
+
+javac FileHandlingUtility.java
+
+
+
+3️⃣ Run the Program
+
+java FileHandlingUtility
+
+
+
+
+
+📂 Project Structure
+
+
+FileHandlingUtility/
+
+│
+
+├── FileHandlingUtility.java    # Main Java source code
+
+├── sample.txt                  # File to read/write/append
+
+└── README.md                   # Documentation
+
+
+
+
+
+
+
+
+
+📜 Code Walkthrough
+
+1. File Name Constant
+
+private static final String FILE_NAME = "sample.txt";
+
+
+
+
+Stores the file name in one place for easy modification.
+
+
+
+The file is created in the program's execution directory.
+
+
+2. Write to File
+
+try (BufferedWriter writer = new BufferedWriter(new FileWriter(FILE_NAME))) {
+ 
+    writer.write(content);
+
+}
+
+
+
+
+Uses BufferedWriter for efficiency.
+
+
+FileWriter (without true) overwrites the file.
+
+
+
+3. Read from File
+
+try (BufferedReader reader = new BufferedReader(new FileReader(FILE_NAME))) {
+
+    String line;
+
+    while ((line = reader.readLine()) != null) {
+
+        System.out.println(line);
+
+    }
+
+}
+
+
+
+
+Reads file line-by-line to avoid memory issues.
+
+
+
+Uses try-with-resources to close automatically.
+
+
+
+4. Append to File
+
+try (BufferedWriter writer = new BufferedWriter(new FileWriter(FILE_NAME, true))) {
+ 
+    writer.newLine();
+
+    writer.write(newContent);
+
+}
+
+
+
+Uses true in FileWriter to enable append mode.
+
+Adds a newline before appending.
+
+
+
+5. Menu & User Interaction
+
+switch (choice) {
+
+    case 1: writeFile(...); break;
+
+     case 2: readFile(); break;
+
+    case 3: modifyFile(...); break;
+
+    default: System.out.println("❌ Invalid option!");
+
+}
+
+
+Provides an easy navigation system.
+
+Handles invalid choices gracefully.
+
+
+
+
+
+💻 Example Runs
+
+Example 1 – Writing to a File
+
+===== FILE HANDLING UTILITY =====
+
+
+1. Write to File
+
+2. Read File
+
+3. Modify File
+
+Choose an option: 1
+
+Enter text to write: Hello World
+
+✅ File written successfully!
+
+
+
+sample.txt now contains:
+
+
+
+Hello World
+
+
+
+Example 2 – Reading from a File
+
+===== FILE HANDLING UTILITY =====
+
+1. Write to File
+
+2. Read File
+
+3. Modify File
+
+Choose an option: 2
+
+
+
+📄 File Content:
+
+Hello World
+
+
+
+Example 3 – Appending to a File
+
+===== FILE HANDLING UTILITY =====
+
+1. Write to File
+
+2. Read File
+
+3. Modify File
+
+Choose an option: 3
+
+Enter text to append: This is Java
+
+✅ File modified successfully!
+
+
+sample.txt now contains:
+
+
+Hello World
+
+This is Java
+
+
+Example 4 – Invalid Option
+
+===== FILE HANDLING UTILITY =====
+
+1. Write to File
+
+2. Read File
+
+3. Modify File
+
+Choose an option: 7
+
+❌ Invalid option!
+
+
+
+
+
+
+🛡 Error Handling
+
+
+The program is built to handle:
+
+
+File not found – Displays "❌ Error reading file: ...".
+
+
+Permission issues – Informs the user without crashing.
+
+
+Invalid menu option – Prints "❌ Invalid option!".
+
+
+Empty input – File will still be created but with no content.
+
+
+
+
+
+
+🔮 Future Improvements
+
+
+Add Delete File option.
+
+
+Add Search in File option.
+
+
+Add File Encryption/Decryption.
+
+
+Allow multiple operations in one run (loop until exit).
+
+
+Add GUI version using Java Swing or JavaFX.
+
+
+
+
+
+📜 License
+
+
+This project is licensed under the MIT License – you are free to use, modify, and distribute it with attribution.
+
+
+
+
+
+👨‍💻 Author
+
+
+Your Name
+
+📧 asmathunnisam@gmail.com
+
+🌐 SHAIK RAYEES (fajlrs)
+
+
