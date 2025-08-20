@@ -38,9 +38,9 @@
 
 
 
-📂 FileHandlingUtility – Java File Handling Tool
+### 📂 FileHandlingUtility – Java File Handling Tool
 
-1.📝 Overview
+#### 1.📝 Overview
 
 FileHandlingUtility is a menu-driven Java console application designed to demonstrate file handling operations in Java using BufferedReader, BufferedWriter, and FileWriter.
 It allows users to:
@@ -63,7 +63,7 @@ Use menu-driven programming in console applications
 
 
 
-2.🚀 Features
+#### 2.🚀 Features
 
 ✅ Write to a file – Overwrites the file with new content.
 
@@ -89,7 +89,7 @@ Command Line Interface: Terminal / Command Prompt
 
 
 
-⚙️ How to Run
+#### 3.⚙️ How to Run
 
 
 git clone https://github.com/<your-username>/FileHandlingUtility.git
@@ -112,7 +112,7 @@ java FileHandlingUtility
 
 
 
-📂 Project Structure
+#### 4.📂 Project Structure
 
 
 FileHandlingUtility/
@@ -133,7 +133,7 @@ FileHandlingUtility/
 
 
 
-📜 Code Walkthrough
+#### 5.📜 Code Walkthrough
 
 1. File Name Constant
 
@@ -233,7 +233,7 @@ Handles invalid choices gracefully.
 
 
 
-💻 Example Runs
+#### 6.💻 Example Runs
 
 Example 1 – Writing to a File
 
@@ -326,7 +326,7 @@ Choose an option: 7
 
 
 
-🛡 Error Handling
+#### 7.🛡 Error Handling
 
 
 The program is built to handle:
@@ -348,7 +348,7 @@ Empty input – File will still be created but with no content.
 
 
 
-🔮 Future Improvements
+#### 8.🔮 Future Improvements
 
 
 Add Delete File option.
@@ -369,7 +369,7 @@ Add GUI version using Java Swing or JavaFX.
 
 
 
-📜 License
+#### 9.📜 License
 
 
 This project is licensed under the MIT License – you are free to use, modify, and distribute it with attribution.
@@ -378,14 +378,14 @@ This project is licensed under the MIT License – you are free to use, modify, 
 
 
 
-👨‍💻 Author
+### 👨‍💻 Author
 
 
-Your Name
+#### SHAIK RAYEES
 
-📧 asmathunnisam@gmail.com
+#### 📧 asmathunnisam@gmail.com
 
-🌐 SHAIK RAYEES (fajlrs)
+#### 🌐 SHAIK RAYEES (fajlrs)
 
 
 
