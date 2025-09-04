@@ -391,7 +391,9 @@ This project is licensed under the MIT License – you are free to use, modify, 
 
 ## OUTPUT
 
-<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/b4d018a2-84ac-4d1e-b124-cfe59e77a46b" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/e635adc2-9f74-4f79-8d86-f9851e386c83" />
+
+
 
 
 
